@@ -1,5 +1,6 @@
 # gmap-vue-issue
 
+This repository is to reproduce an issue on [gmap-vue](https://github.com/diegoazh/gmap-vue)
 ## Project setup
 ```
 yarn install

@@ -1,3 +1,14 @@
 module.exports = {
-  presets: ["@vue/cli-plugin-babel/preset"],
-};
+  "presets": [
+    [
+      "@vue/app",
+      {
+        "targets": {
+          "ie": "11"
+        },
+        useBuiltIns: "entry"
+      }
+    ]
+  ],
+  "compact": false
+}
